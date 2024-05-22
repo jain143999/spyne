@@ -35,13 +35,13 @@ const VideoCaptionApp = () => {
 
   return (
     <Container className="my-4">
-      <h1 className="heading">Video Caption App</h1>
+      <h1 className="heading">Video Caption App: </h1>
       <Row className="justify-content-center">
         <Col md={8}>
           <div className="form-container">
             <Form>
               <Form.Group controlId="videoUrl">
-                <Form.Label className="form-label">Video URL</Form.Label>
+                <Form.Label className="form-label">Video URL: </Form.Label>
                 <Form.Control
                   type="text"
                   placeholder="Enter video URL"
@@ -50,7 +50,7 @@ const VideoCaptionApp = () => {
                 />
               </Form.Group>
               <Form.Group controlId="captionText">
-                <Form.Label className="form-label">Caption Text</Form.Label>
+                <Form.Label className="form-label">Caption Text: </Form.Label>
                 <Form.Control
                   type="text"
                   placeholder="Enter caption text"
@@ -60,7 +60,7 @@ const VideoCaptionApp = () => {
               </Form.Group>
               <Form.Group controlId="captionTime">
                 <Form.Label className="form-label">
-                  Caption Time (in seconds)
+                  Caption Time (in seconds):{" "}
                 </Form.Label>
                 <Form.Control
                   type="number"
