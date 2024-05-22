@@ -74,6 +74,7 @@
 }
 .captions-list-container {
   padding-left: 14rem;
+  padding-bottom: 120px;
 }
 .play-pause-container {
   display: flex;
