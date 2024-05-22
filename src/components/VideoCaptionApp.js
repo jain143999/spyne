@@ -9,7 +9,7 @@ const VideoCaptionApp = () => {
   const [captionText, setCaptionText] = useState("");
   const [captionTime, setCaptionTime] = useState("");
   const [currentCaption, setCurrentCaption] = useState("");
-  const [isPlaying, setIsPlaying] = useState(false); // State for play/pause
+  const [isPlaying, setIsPlaying] = useState(false);
   const playerRef = useRef(null);
 
   const addCaption = () => {
